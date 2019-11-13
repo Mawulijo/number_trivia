@@ -1,4 +1,4 @@
- class NUmber {
-  string  number;
-  string text;
- }
+class NUmber {
+  String number;
+  String text;
+}
