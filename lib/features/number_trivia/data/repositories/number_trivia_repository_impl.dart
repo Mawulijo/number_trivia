@@ -6,7 +6,6 @@ import 'package:number_trivia/features/number_trivia/data/repositories/number_tr
 import 'package:number_trivia/features/number_trivia/data/repositories/number_trivia_remote_data_source.dart';
 import 'package:number_trivia/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:number_trivia/features/number_trivia/domain/repositories/number_trivia_repository.dart';
-import 'package:number_trivia/features/number_trivia/domain/use_cases/get_random_number_trivia.dart';
 
 class NumberTriviaRepositoryImpl implements NumberTriviaRepository {
   final NumberTriviaRemoteDataSource remoteDataSource;
@@ -20,9 +19,12 @@ class NumberTriviaRepositoryImpl implements NumberTriviaRepository {
   });
 
   @override
-  Future<Either<Failure, NumberTrivia>> getConcreteNumberTrivia(int number) {
-    //TODO: implement getConcreteNumberTrivia
-    return null;
+  Future<Either<Failure, NumberTrivia>> getConcreteNumberTrivia(
+      int number) async {
+    networkInfo.isConnected;
+    final remoteTrivia = await remoteDataSource.getConcreteNumberTrivia(number);
+    localDataSource.cacheNumberTrivia(remoteTrivia);
+    return Right(remoteTrivia);
   }
 
   @override
