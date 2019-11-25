@@ -13,20 +13,19 @@ import 'package:number_trivia/features/number_trivia/domain/entities/number_triv
 class MockRemoteDataSource extends Mock
     implements NumberTriviaRemoteDataSource {}
 
-class MockLlocalDataSource extends Mock implements NumberTriviaLocalDataSource {
-}
+class MockLocalDataSource extends Mock implements NumberTriviaLocalDataSource {}
 
 class MockNetworkInfo extends Mock implements NetworkInfo {}
 
 void main() {
   NumberTriviaRepositoryImpl repository;
-  MockLlocalDataSource mockLocalDataSource;
+  MockLocalDataSource mockLocalDataSource;
   MockRemoteDataSource mockRemoteDataSource;
   MockNetworkInfo mockNetworkInfo;
 
   setUp(() {
     mockRemoteDataSource = MockRemoteDataSource();
-    mockLocalDataSource = MockLlocalDataSource();
+    mockLocalDataSource = MockLocalDataSource();
     mockNetworkInfo = MockNetworkInfo();
     repository = NumberTriviaRepositoryImpl(
       remoteDataSource: mockRemoteDataSource,
