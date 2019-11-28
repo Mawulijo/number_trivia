@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter/material.dart';
+import 'package:meta/meta.dart';
 
 import '../../../../core/error/exception.dart';
 import '../../../../core/error/failures.dart';
