@@ -44,12 +44,6 @@
       "languageVersion": "2.0"
     },
     {
-      "name": "connectivity",
-      "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/connectivity-0.4.5+3",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "convert",
       "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
       "packageUri": "lib/",
@@ -72,6 +66,12 @@
       "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/dartz-0.8.8",
       "packageUri": "lib/",
       "languageVersion": "1.24"
+    },
+    {
+      "name": "data_connection_checker",
+      "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/data_connection_checker-0.3.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
     },
     {
       "name": "equatable",
@@ -248,7 +248,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2019-11-20T21:47:03.059763Z",
+  "generated": "2019-11-29T20:30:43.417906Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
