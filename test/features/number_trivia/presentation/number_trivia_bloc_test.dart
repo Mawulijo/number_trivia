@@ -7,7 +7,7 @@ import 'package:number_trivia/core/use_cases/use_case.dart';
 import 'package:number_trivia/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:number_trivia/features/number_trivia/domain/use_cases/get_concrete_number_trivia.dart';
 import 'package:number_trivia/features/number_trivia/domain/use_cases/get_random_number_trivia.dart';
-import 'package:number_trivia/features/number_trivia/presentation/bloc/bloc/bloc.dart';
+import 'package:number_trivia/features/number_trivia/presentation/bloc/bloc.dart';
 
 class MockGetConcreteNumberTrivia extends Mock
     implements GetConcreteNumberTrivia {}

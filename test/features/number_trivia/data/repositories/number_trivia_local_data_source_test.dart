@@ -1,6 +1,4 @@
 import 'dart:convert';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:number_trivia/core/error/exception.dart';
@@ -48,7 +46,7 @@ void main() {
       // assert
       // Calling the method happens from a higher-order function passed.
       // This is needed to test if calling a method throws an exception.
-      expect(() => call(), throwsA(TypeMatcher<CacheException>()));
+      expect(() => call(), throwsA(CacheException()));
     });
   });
   group('cacheNumberTrivia', () {
