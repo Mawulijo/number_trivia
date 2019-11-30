@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:number_trivia/features/number_trivia/presentation/bloc/bloc.dart';
-import 'package:number_trivia/injection_container.dart';
+
+import '../../../../injection_container.dart';
+import '../bloc/bloc.dart';
+import '../bloc/number_trivia_bloc.dart';
 import '../widgets/widgets.dart';
 
 class NumberTriviaPage extends StatelessWidget {
@@ -10,15 +12,14 @@ class NumberTriviaPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Number Trivia"),
-        actions: <Widget>[
-          Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: Icon(Icons.settings),
-          ),
-        ],
-        backgroundColor: Colors.green.shade800,
-        elevation: 50.0,
-        leading: Icon(Icons.menu),
+        // actions: <Widget>[
+        //   Padding(
+        //     padding: const EdgeInsets.all(5.0),
+        //     child: Icon(Icons.settings),
+        //   ),
+        // ],
+
+        // leading: Icon(Icons.menu),
       ),
       body: SingleChildScrollView(child: buildBody(context)),
     );
@@ -48,8 +49,13 @@ class NumberTriviaPage extends StatelessWidget {
                     return MessageDisplay(
                       message: state.message,
                     );
+                  } else if (state is Loaded) {
+                    return TriviaDisplay(numberTrivia: state.trivia);
+                  } else if (state is Error) {
+                    return MessageDisplay(
+                      message: state.message,
+                    );
                   }
-                  return TriviaDisplay();
                 },
               ),
 
