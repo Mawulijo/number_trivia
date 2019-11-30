@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Number Trivia',
-        // theme: ThemeData(
-        //   primarySwatch: Colors.green.shade800,
-        //   accentColor: Colors.green.shade600,
-        // ),
+        theme: ThemeData(
+          primarySwatch: Colors.green,
+          accentColor: Colors.green.shade600,
+        ),
         home: NumberTriviaPage());
   }
 }
