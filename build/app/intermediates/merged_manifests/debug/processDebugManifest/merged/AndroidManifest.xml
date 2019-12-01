@@ -21,10 +21,9 @@
     -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="number_trivia" >
+        android:label="Number Trivia" >
         <activity
             android:name="com.example.number_trivia.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
