@@ -6,6 +6,6 @@ TDD Clean Architecture for Flutter
 
 This project seeks to explore TDD in a flutter app
 
-## Resources
+## Reference(s)
 
 <https://resocoder.com/category/tutorials/flutter/tdd-clean-architecture/>
