@@ -1,2 +1,2 @@
-GET http://numbersapi.com/#42
+GET http://numbersapi.com/42?json
 
