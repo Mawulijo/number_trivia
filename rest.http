@@ -1,2 +1,6 @@
+# If using VSCode, install the REST Client extension to enable you test the API using this file
+
 GET http://numbersapi.com/42?json
+
+# GET http://numbersapi.com/random
 
