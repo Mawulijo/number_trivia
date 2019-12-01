@@ -5,8 +5,8 @@ import 'package:number_trivia/core/error/exception.dart';
 import 'package:number_trivia/core/error/failures.dart';
 import 'package:number_trivia/core/network/network_info.dart';
 import 'package:number_trivia/features/number_trivia/data/models/number_trivia_model.dart';
-import 'package:number_trivia/features/number_trivia/data/repositories/number_trivia_local_data_source.dart';
-import 'package:number_trivia/features/number_trivia/data/repositories/number_trivia_remote_data_source.dart';
+import 'package:number_trivia/features/number_trivia/data/data_sources/number_trivia_local_data_source.dart';
+import 'package:number_trivia/features/number_trivia/data/data_sources/number_trivia_remote_data_source.dart';
 import 'package:number_trivia/features/number_trivia/data/repositories/number_trivia_repository_impl.dart';
 import 'package:number_trivia/features/number_trivia/domain/entities/number_trivia.dart';
 

@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Sat Nov 30 16:27:34 GMT 2019
-4.path=classes.dex
+#Sun Dec 01 07:53:14 GMT 2019
+4.path=flutter_assets/AssetManifest.json
 8.set=ASSET
 6.path=flutter_assets/vm_snapshot_data
 0.baseType=DIRECTORY
@@ -8,8 +8,8 @@
 5.baseType=DIRECTORY
 1.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 8.path=flutter_assets/FontManifest.json
-3.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/mergeJniLibs/debug/0
-4.set=DEX
+3.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/dexMerger/debug/0
+4.set=ASSET
 5.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 7.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 11.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
@@ -19,27 +19,27 @@
 0.set=NATIVE_RESOURCE
 6.baseType=DIRECTORY
 7.set=ASSET
-3.set=NATIVE_RESOURCE
+3.set=DEX
 2.baseType=DIRECTORY
 10.baseType=DIRECTORY
 1.path=flutter_assets/isolate_snapshot_data
 7.baseType=DIRECTORY
-3.path=lib/arm64-v8a/libflutter.so
+3.path=classes.dex
 10.set=NATIVE_RESOURCE
-5.path=flutter_assets/AssetManifest.json
+5.path=flutter_assets/assets/logo/nt_logo.jpg
 0.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/mergeJniLibs/debug/0
 7.path=flutter_assets/kernel_blob.bin
 11.path=flutter_assets/LICENSE
 9.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
 6.set=ASSET
-2.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/mergeJniLibs/debug/0
 11.baseType=DIRECTORY
-4.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/dexMerger/debug/0
+4.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 3.baseType=DIRECTORY
 6.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 10.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/mergeJniLibs/debug/0
 8.base=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
-2.set=ASSET
+2.set=NATIVE_RESOURCE
 8.baseType=DIRECTORY
 9.set=ASSET
 count=12
@@ -48,4 +48,4 @@ count=12
 9.baseType=DIRECTORY
 0.path=lib/x86/libflutter.so
 1.set=ASSET
-2.path=flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+2.path=lib/arm64-v8a/libflutter.so

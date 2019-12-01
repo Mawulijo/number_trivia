@@ -12,16 +12,17 @@ class NumberTriviaPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Number Trivia"),
-        // actions: <Widget>[
-        //   Padding(
-        //     padding: const EdgeInsets.all(5.0),
-        //     child: Icon(Icons.settings),
-        //   ),
-        // ],
-
-        // leading: Icon(Icons.menu),
+        actions: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(5.0),
+            child: Icon(Icons.settings),
+          ),
+        ],
+        leading: Icon(Icons.menu),
       ),
-      body: SingleChildScrollView(child: buildBody(context)),
+      body: SingleChildScrollView(
+        child: buildBody(context),
+      ),
     );
   }
 

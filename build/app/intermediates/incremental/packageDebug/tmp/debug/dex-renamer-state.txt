@@ -1,4 +1,4 @@
-#Sat Nov 30 16:27:32 GMT 2019
+#Sun Dec 01 07:53:11 GMT 2019
 base.0=/Users/mawuli/Projects/flutter_apps/number_trivia/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

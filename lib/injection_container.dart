@@ -5,8 +5,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/network/network_info.dart';
 import 'core/presentation/util/input_converter.dart';
-import 'features/number_trivia/data/repositories/number_trivia_local_data_source.dart';
-import 'features/number_trivia/data/repositories/number_trivia_remote_data_source.dart';
+import 'features/number_trivia/data/data_sources/number_trivia_local_data_source.dart';
+import 'features/number_trivia/data/data_sources/number_trivia_remote_data_source.dart';
 import 'features/number_trivia/data/repositories/number_trivia_repository_impl.dart';
 import 'features/number_trivia/domain/repositories/number_trivia_repository.dart';
 import 'features/number_trivia/domain/use_cases/get_concrete_number_trivia.dart';

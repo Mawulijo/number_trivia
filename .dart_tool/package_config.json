@@ -56,12 +56,6 @@
       "languageVersion": "2.1"
     },
     {
-      "name": "cupertino_icons",
-      "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "dartz",
       "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/dartz-0.8.8",
       "packageUri": "lib/",
@@ -90,6 +84,12 @@
       "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-0.21.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_launcher_icons",
+      "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/flutter_launcher_icons-0.7.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
     },
     {
       "name": "flutter_test",
@@ -242,13 +242,19 @@
       "languageVersion": "2.3"
     },
     {
+      "name": "yaml",
+      "rootUri": "file:///Users/mawuli/.pub-cache/hosted/pub.dartlang.org/yaml-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "number_trivia",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2019-11-30T14:12:23.779643Z",
+  "generated": "2019-12-01T07:51:38.344738Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

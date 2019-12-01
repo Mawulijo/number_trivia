@@ -48,13 +48,11 @@ class NumberTriviaBloc extends Bloc<NumberTriviaEvent, NumberTriviaState> {
         (failure) async* {
           yield Error(message: INVALID_INPUT_FAILURE_MESSAGE);
         },
-        // Although the "success case" doesn't interest us with the current test,
-        // we still have to handle it somehow.
         (integer) async* {
           yield Loading();
           final failureOrTrivia =
               await getConcreteNumberTrivia(Params(number: integer));
-          _eitherLoadedOrErrorState(failureOrTrivia);
+          yield* _eitherLoadedOrErrorState(failureOrTrivia);
           //before refactoring
           // yield failureOrTrivia.fold(
           // (failure) => Error(message: _mapFailureToMessage(failure)),
@@ -66,7 +64,7 @@ class NumberTriviaBloc extends Bloc<NumberTriviaEvent, NumberTriviaState> {
       final failureOrTrivia = await getRandomNumberTrivia(
         NoParams(),
       );
-      _eitherLoadedOrErrorState(failureOrTrivia);
+      yield* _eitherLoadedOrErrorState(failureOrTrivia);
       //before refactoring
       // yield failureOrTrivia.fold(
       // (failure) => Error(message: _mapFailureToMessage(failure)),

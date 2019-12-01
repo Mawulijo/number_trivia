@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:mockito/mockito.dart';
 import 'package:number_trivia/core/error/exception.dart';
 import 'package:number_trivia/features/number_trivia/data/models/number_trivia_model.dart';
-import 'package:number_trivia/features/number_trivia/data/repositories/number_trivia_remote_data_source.dart';
+import 'package:number_trivia/features/number_trivia/data/data_sources/number_trivia_remote_data_source.dart';
 
 import '../../../../fixtures/fixture_reader.dart';
 
