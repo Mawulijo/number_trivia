@@ -15,7 +15,7 @@ import 'features/number_trivia/presentation/bloc/bloc.dart';
 
 final sl = GetIt.instance; //sl is for service locator
 
-void init() async {
+Future<void> init() async {
   //! Features - NumberTrivia
   sl.registerFactory(
     () => NumberTriviaBloc(
