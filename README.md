@@ -1,6 +1,6 @@
 # number_trivia
 
-A new Flutter project.
+TDD Clean Architecture for Flutter
 
 ## Aim
 
