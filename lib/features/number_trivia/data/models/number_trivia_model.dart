@@ -23,6 +23,8 @@ class NumberTriviaModel extends NumberTrivia {
   // Map<String, dynamic> toJson() {
   //   return {
   //     'text': text,
+  //     'number': number,
+  // }
 
   // using the json_annotation package
   Map<String, dynamic> toJson() => _$NumberTriviaModelToJson(this);
