@@ -1,4 +1,4 @@
-#Sun Dec 01 10:42:57 GMT 2019
+#Mon Dec 09 15:45:58 GMT 2019
 base.0=C\:\\Users\\j-mawuli\\number_trivia\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
