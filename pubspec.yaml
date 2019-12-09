@@ -12,7 +12,7 @@ dependencies:
   # Service locator
   get_it: ^2.0.1
   # BLoc state management
-  flutter_bloc: ^0.21.0
+  flutter_bloc: 2.1.1
   # Value equality
   equatable: 1.0.1
   # Functional programming thingies

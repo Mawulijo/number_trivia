@@ -61,12 +61,12 @@ class _TriviaControlsState extends State<TriviaControls> {
     // Clearing the TextField to prepare it for the next inputted number
     controller.clear();
     BlocProvider.of<NumberTriviaBloc>(context)
-        .dispatch(GetTriviaForConcreteNumber(inputStr));
+        .add(GetTriviaForConcreteNumber(inputStr));
   }
 
   void dispatchRandom() {
     controller.clear();
     BlocProvider.of<NumberTriviaBloc>(context)
-        .dispatch(GetTriviaForRandomNumber());
+        .add(GetTriviaForRandomNumber());
   }
 }
