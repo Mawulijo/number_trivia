@@ -12,12 +12,3 @@ abstract class Failure extends Equatable {
 class ServerFailure extends Failure {}
 
 class CacheFailure extends Failure {}
-
-class Person extends Equatable {
-  final String name;
-
-  Person(this.name);
-
-  @override
-  List<Object> get props => [name];
-}
